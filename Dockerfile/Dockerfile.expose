@@ -1,6 +1,6 @@
 FROM ubuntu 
 EXPOSE 80
-RUN useradd vitorbispo
+RUN useradd vitorbispo-0=
 RUN apt update && apt install nginx --yes
 WORKDIR /app
 COPY --chown=vitorbispo:vitorbispo --chmod=777 ./arquivo/teste.txt .

@@ -17,3 +17,7 @@ Logo em Seguida, editei o Dockerfile para testar os seguintes comandos e enteder
 - USER
 - ENTRYPOINT
 - CMD
+
+Por fim, importei a pasta "src" do fork referente ao conversor de temperatura e criei um Dockerfile dentro da pasta para rodar o conversor em um docker.
+
+
