@@ -1,0 +1,7 @@
+FROM postgres:latest
+
+ENV POSTGRES_USER=kubenews
+ENV POSTGRES_PASSWORD=ps100
+ENV POSTGRES_DB=kubenews
+
+EXPOSE 5432
